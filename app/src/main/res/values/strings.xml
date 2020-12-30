@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <string name="order_coffee">Order Coffee</string>
+    <string name="minus_sign">-</string>
+    <string name="_1">1</string>
+    <string name="plus_sign">+</string>
+    <string name="order">Order</string>
+    <string name="sppiner_message">Select Something ...</string>
+    <string name="select_a_coffee_type">Select a coffee type</string>
+    <string name="confermation_of_order">Confirmation Of Order</string>
+    <string name="total">Total</string>
+    <string name="price_per_quantity">Price per Quantity</string>
+    <string name="quantity">Quantity</string>
+    <string name="coffee_type">Coffee Type</string>
+    <string name="confirm_order">Confirm Order</string>
+</resources>
