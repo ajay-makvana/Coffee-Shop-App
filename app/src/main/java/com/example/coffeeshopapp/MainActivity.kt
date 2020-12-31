@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 result.text = "You selected : ${options.get(p2)}"
             }
             override fun onNothingSelected(p0: AdapterView<*>?) {
-                result.text = getString(R.string.sppiner_message)
+                result.text = getString(R.string.message)
             }
         }
     }

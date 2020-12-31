@@ -21,7 +21,7 @@
             android:fontFamily="sans-serif"
             android:textSize="32sp"
             android:textAlignment="center"
-            android:text="@string/confermation_of_order" />
+            android:text="@string/confirmation_of_order" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -32,7 +32,9 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp">
+                android:layout_margin="16dp"
+                android:background="#3366ff">
+
                 <TextView
                     android:id="@+id/coffee_name"
                     android:layout_width="0dp"
@@ -44,7 +46,9 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="@string/coffee_type" />
+                    android:layout_marginStart="8dp"
+                    android:text="@string/coffee_type"
+                    android:textColor="@color/design_default_color_error"/>
 
                 <TextView
                     android:id="@+id/coffee_quantity"
@@ -57,7 +61,8 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="@string/quantity" />
+                    android:text="@string/quantity"
+                    android:textColor="@color/design_default_color_error"/>
 
                 <TextView
                     android:id="@+id/coffee_price"
@@ -70,7 +75,8 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="@string/price_per_quantity" />
+                    android:text="@string/price_per_quantity"
+                    android:textColor="@color/design_default_color_error"/>
 
                 <TextView
                     android:id="@+id/total"
@@ -82,7 +88,9 @@
                     android:textAlignment="center"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="@string/total" />
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/total"
+                    android:textColor="@color/design_default_color_error"/>
 
             </TableRow>
 
@@ -100,6 +108,7 @@
                     android:textAlignment="center"
                     android:layout_marginEnd="8dp"
                     android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
                     android:layout_marginBottom="8dp"
                     android:text="" />
 
@@ -140,6 +149,7 @@
                     android:textAlignment="center"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
                     android:text="" />
 
             </TableRow>
